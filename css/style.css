@@ -78,10 +78,18 @@ html,body{
     align-items: center;
     flex-direction: column;
 }
-.main__list__movies__content__movie span{
+.main__list__movies__content__movie__cape img{
+    cursor: pointer;
+}
+.main__list__movies__content__movie a{
     color: #ccc;
     font-family: var(--text);
     font-weight: 200;
+    text-decoration: none;
+    transition: all 0.1s ease-in-out;
+}
+.main__list__movies__content__movie a:hover{
+    color: var(--yellow);
 }
 .footer{
     margin-top: 2rem;

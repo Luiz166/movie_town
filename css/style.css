@@ -62,9 +62,16 @@ html,body{
     }
     .main__carousel span{
         font-family: var(--text);
-        color: white;
+        color: #333;
         text-decoration: none;
         font-weight: 700;
+    }
+    .main__carousel a > div{
+        display: block;
+        background-color: black;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        box-sizing: border-box;
     }
     .main__list__movies{
         margin-top: 2rem;

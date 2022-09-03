@@ -40,6 +40,14 @@ html,body{
         background-color: #ccc;
         color: var(--bg);
     }
+    .header input{
+        outline: none;
+        border: none;
+        padding: .5rem .6rem;
+        border-radius: 2rem;
+        font-size: 1.1rem;
+        margin-left: 20rem;
+    }
     .main__titlepage {
         text-align: center;
         color: #ccc;

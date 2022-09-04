@@ -22,16 +22,16 @@
             <section class="header__logo">
                 <img src="resources/images/logo.png" onclick="window.location.href = '../../index.html'" />
             </section>
-                <input type="search" id="search" list="movies__data" placeholder="Pesquisar">
-                <datalist id="movies__data">
-                    <option value="American Psycho"></option>
-                    <option value="Taxi Driver"></option>
-                    <option value="The Place Beyond the Pines"></option>
-                    <option value="Blade Runner 2049"></option>
-                    <option value="NightCrawler"></option>
-                    <option value="Drive"></option>
-                    <option value="Fight Club"></option>
-                </datalist>
+            <input type="search" id="search" list="movies__data" placeholder="Pesquisar">
+            <datalist id="movies__data">
+                <option value="American Psycho"></option>
+                <option value="Taxi Driver"></option>
+                <option value="The Place Beyond the Pines"></option>
+                <option value="Blade Runner 2049"></option>
+                <option value="NightCrawler"></option>
+                <option value="Drive"></option>
+                <option value="Fight Club"></option>
+            </datalist>
             <nav class="header__nav">
                 <a href="#">Home</a>
                 <a href="#">Popular</a>
@@ -49,36 +49,40 @@
             <section class="main__carousel">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <a href="movies_pages/american_psycho/index.html">
-                            <img class="d-block w-100" src="resources/images/banners/american_ps.jpg" alt="americanpsycho.jpg">
-                        </a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="movies_pages/bladerunner2049/index.html">
-                            <img class="d-block w-100" src="resources/images/banners/bd2049.jpg" alt="bladerruner2049.jpg">
-                        </a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="">
-                            <img class="d-block w-100" src="resources/images/banners/drive.jpg" alt="drive.jpg">
-                        </a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="movies_pages/">
-                            <img class="d-block w-100" src="resources/images/banners/fight_club.jpg" alt="fight_club.jpg">
-                        </a>
-                      </div>
-                      <div class="carousel-item">
-                        <a href="movies_pages/taxi_driver/index.html">
-                            <img class="d-block w-100" src="resources/images/banners/taxi_driver.jpg" alt="taxi_driver.jpg">
-                        </a>
-                      </div>
+                        <div class="carousel-item active">
+                            <a href="movies_pages/american_psycho/index.html">
+                                <img id="americanpsycho" class="d-block w-100"
+                                    src="resources/images/banners/american_ps.jpg" alt="americanpsycho.jpg">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="movies_pages/bladerunner2049/index.html">
+                                <img class="d-block w-100" src="resources/images/banners/bd2049.jpg"
+                                    alt="bladerruner2049.jpg">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="movies_pages/drive/index.html">
+                                <img class="d-block w-100" src="resources/images/banners/drive.jpg" alt="drive.jpg">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="movies_pages/fight_club/index.html">
+                                <img class="d-block w-100" src="resources/images/banners/fight_club.jpg"
+                                    alt="fight_club.jpg">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="movies_pages/taxi_driver/index.html">
+                                <img class="d-block w-100" src="resources/images/banners/taxi_driver.jpg"
+                                    alt="taxi_driver.jpg">
+                            </a>
+                        </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <div>
@@ -90,16 +94,16 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         </div>
                     </a>
-                  </div>
+                </div>
             </section>
             <section id="new" class="main__list__movies">
                 <h2 role="text">Adicionados recentemente</h2>
                 <div class="main__list__movies__content">
                     <div class="main__list__movies__content__movie">
                         <a href="movies_pages/american_psycho/index.html">
-                        <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/american_ps.jpg" />
-                        </div>
+                            <div class="main__list__movies__content__movie__cape">
+                                <img src="resources/images/banners_vertical/american_ps.jpg" />
+                            </div>
                             <span>
                                 Psicopata Americano
                             </span>
@@ -107,9 +111,9 @@
                     </div>
                     <div class="main__list__movies__content__movie">
                         <a href="movies_pages/taxi_driver/index.html">
-                        <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/taxi_driver.jpg" />
-                        </div>
+                            <div class="main__list__movies__content__movie__cape">
+                                <img src="resources/images/banners_vertical/taxi_driver.jpg" />
+                            </div>
                             <span>
                                 Taxi Driver
                             </span>
@@ -117,39 +121,39 @@
                     </div>
                     <div class="main__list__movies__content__movie">
                         <a href="movies_pages/bladerunner2049/index.html">
-                        <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/br2049.jpg" />
-                        </div>
+                            <div class="main__list__movies__content__movie__cape">
+                                <img src="resources/images/banners_vertical/br2049.jpg" />
+                            </div>
                             <span>
                                 Blade Runner 2049
-                            </span>  
+                            </span>
                         </a>
                     </div>
                     <div class="main__list__movies__content__movie">
                         <a href="movies_pages/drive/index.html">
-                        <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/drive.jpg" />
-                        </div>
+                            <div class="main__list__movies__content__movie__cape">
+                                <img src="resources/images/banners_vertical/drive.jpg" />
+                            </div>
                             <span>
                                 Drive
-                            </span> 
+                            </span>
                         </a>
                     </div>
                     <div class="main__list__movies__content__movie">
                         <a href="movies_pages/nightcrawler/index.html">
-                        <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/nightcrawler.jpg" />
-                        </div>
+                            <div class="main__list__movies__content__movie__cape">
+                                <img src="resources/images/banners_vertical/nightcrawler.jpg" />
+                            </div>
                             <span>
                                 NightCrawler
-                            </span>  
+                            </span>
                         </a>
                     </div>
                     <div class="main__list__movies__content__movie">
                         <a href="movies_pages/tpbtp/index.html">
-                        <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/tpbtp.jpg" />
-                        </div>
+                            <div class="main__list__movies__content__movie__cape">
+                                <img src="resources/images/banners_vertical/tpbtp.jpg" />
+                            </div>
                             <span>
                                 The place<br> beyond the pines
                             </span>
@@ -157,9 +161,9 @@
                     </div>
                     <div class="main__list__movies__content__movie">
                         <a href="movies_pages/fight_club/index.html">
-                        <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/fight_club.jpg" />
-                        </div>
+                            <div class="main__list__movies__content__movie__cape">
+                                <img src="resources/images/banners_vertical/fight_club.jpg" />
+                            </div>
                             <span>
                                 Fight Club
                             </span>
@@ -180,10 +184,12 @@
 
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script $('.carousel').carousel()></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+<script src="js/script.js"></script>
+<script src="js/carousel_trailer.js"></script>
+
 </html>

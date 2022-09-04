@@ -47,4 +47,12 @@ document.querySelector("#search").addEventListener("keydown", function (e){
             window.location.href = "http://127.0.0.1:5500/movies_pages/tpbtp/index.html";
         }
     }
+    else if (e.keyCode == 13 && e.target.value == "Fight Club") {
+        if (window.location.origin.indexOf ("github") > 0){
+            window.location.href = "https://luiz166.github.io/movie_town/movies_pages/fight_club/index.html";
+        }
+        else{
+            window.location.href = "http://127.0.0.1:5500/movies_pages/fight_club/index.html";
+        }
+    }
 })

@@ -12,6 +12,7 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive_phone.css" />
+    <link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
     <title>Movie Town</title>
 </head>
 
@@ -19,7 +20,7 @@
     <div class="container">
         <header class="header">
             <section class="header__logo">
-                <img src="resources/images/logo.png" />
+                <img src="resources/images/logo.png" onclick="window.location.href = '../../index.html'" />
             </section>
                 <input type="search" id="search" list="movies__data" placeholder="Pesquisar">
                 <datalist id="movies__data">
@@ -29,6 +30,7 @@
                     <option value="Blade Runner 2049"></option>
                     <option value="NightCrawler"></option>
                     <option value="Drive"></option>
+                    <option value="Fight Club"></option>
                 </datalist>
             <nav class="header__nav">
                 <a href="#">Home</a>
@@ -53,19 +55,29 @@
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <a href="movies_pages/american_psycho/index.html"><img class="d-block w-100" src="resources/images/banners/american_ps.jpg" alt="americanpsycho.jpg"></a>
+                        <a href="movies_pages/american_psycho/index.html">
+                            <img class="d-block w-100" src="resources/images/banners/american_ps.jpg" alt="americanpsycho.jpg">
+                        </a>
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="resources/images/banners/bd2049.jpg" alt="bladerruner2049.jpg">
+                        <a href="movies_pages/bladerunner2049/index.html">
+                            <img class="d-block w-100" src="resources/images/banners/bd2049.jpg" alt="bladerruner2049.jpg">
+                        </a>
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="resources/images/banners/drive.jpg" alt="drive.jpg">
+                        <a href="">
+                            <img class="d-block w-100" src="resources/images/banners/drive.jpg" alt="drive.jpg">
+                        </a>
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="resources/images/banners/fight_club.jpg" alt="fight_club.jpg">
+                        <a href="movies_pages/">
+                            <img class="d-block w-100" src="resources/images/banners/fight_club.jpg" alt="fight_club.jpg">
+                        </a>
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="resources/images/banners/taxi_driver.jpg" alt="taxi_driver.jpg">
+                        <a href="movies_pages/taxi_driver/index.html">
+                            <img class="d-block w-100" src="resources/images/banners/taxi_driver.jpg" alt="taxi_driver.jpg">
+                        </a>
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -84,40 +96,74 @@
                 <h2 role="text">Adicionados recentemente</h2>
                 <div class="main__list__movies__content">
                     <div class="main__list__movies__content__movie">
+                        <a href="movies_pages/american_psycho/index.html">
                         <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/american_ps.jpg" onclick="window.location.href = 'movies_pages/american_psycho/index.html'" />
+                            <img src="resources/images/banners_vertical/american_ps.jpg" />
                         </div>
-                        <a href="#">Psicopata Americano</a>
+                            <span>
+                                Psicopata Americano
+                            </span>
+                        </a>
                     </div>
                     <div class="main__list__movies__content__movie">
+                        <a href="movies_pages/taxi_driver/index.html">
                         <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/taxi_driver.jpg" onclick="window.location.href = 'movies_pages/taxi_driver/index.html'" />
+                            <img src="resources/images/banners_vertical/taxi_driver.jpg" />
                         </div>
-                        <a href="#">Taxi Driver</a>
+                            <span>
+                                Taxi Driver
+                            </span>
+                        </a>
                     </div>
                     <div class="main__list__movies__content__movie">
+                        <a href="movies_pages/bladerunner2049/index.html">
                         <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/br2049.jpg" onclick="window.location.href = 'movies_pages/bladerunner2049/index.html'" />
+                            <img src="resources/images/banners_vertical/br2049.jpg" />
                         </div>
-                        <a href="#">Blade Runner 2049</a>
+                            <span>
+                                Blade Runner 2049
+                            </span>  
+                        </a>
                     </div>
                     <div class="main__list__movies__content__movie">
+                        <a href="movies_pages/drive/index.html">
                         <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/drive.jpg" onclick="window.location.href = 'movies_pages/drive/index.html'" />
+                            <img src="resources/images/banners_vertical/drive.jpg" />
                         </div>
-                        <a href="#">Drive</a>
+                            <span>
+                                Drive
+                            </span> 
+                        </a>
                     </div>
                     <div class="main__list__movies__content__movie">
+                        <a href="movies_pages/nightcrawler/index.html">
                         <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/nightcrawler.jpg" onclick="window.location.href = 'movies_pages/nightcrawler/index.html'" />
+                            <img src="resources/images/banners_vertical/nightcrawler.jpg" />
                         </div>
-                        <a href="#">NightCrawler</a>
+                            <span>
+                                NightCrawler
+                            </span>  
+                        </a>
                     </div>
                     <div class="main__list__movies__content__movie">
+                        <a href="movies_pages/tpbtp/index.html">
                         <div class="main__list__movies__content__movie__cape">
-                            <img src="resources/images/banners_vertical/tpbtp.jpg" onclick="window.location.href = 'movies_pages/tpbtp/index.html'" />
+                            <img src="resources/images/banners_vertical/tpbtp.jpg" />
                         </div>
-                        <a href="#">The place beyond the pines</a>
+                            <span>
+                                The place<br> beyond the pines
+                            </span>
+                        </a>
+                    </div>
+                    <div class="main__list__movies__content__movie">
+                        <a href="movies_pages/fight_club/index.html">
+                        <div class="main__list__movies__content__movie__cape">
+                            <img src="resources/images/banners_vertical/fight_club.jpg" />
+                        </div>
+                            <span>
+                                Fight Club
+                            </span>
+                        </a>
                     </div>
                 </div>
             </section>

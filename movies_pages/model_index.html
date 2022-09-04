@@ -6,10 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/movie_page.css">
+    <link rel="stylesheet" href="../css/movie_page_responsive.css">
     <title><!--titulo--> - Movie Town</title>
 </head>
 
 <body>
+    <header class="header">
+        <section class="header__logo">
+            <img src="../../resources/images/logo.png" onclick="window.location.href = '../../index.html'" />
+        </section>
+            <input type="search" id="search" list="movies__data" placeholder="Pesquisar">
+            <datalist id="movies__data">
+                <option value="American Psycho"></option>
+                <option value="Taxi Driver"></option>
+                <option value="The Place Beyond the Pines"></option>
+                <option value="Blade Runner 2049"></option>
+                <option value="NightCrawler"></option>
+                <option value="Drive"></option>
+                <option value="Fight Club"></option>
+            </datalist>
+        <nav class="header__nav">
+            <a href="#">Home</a>
+            <a href="#">Popular</a>
+            <a href="#new">New</a>
+        </nav>
+    </header>
     <div class="container">
         <section class="group__flex">
             <aside class="movie__banner">
@@ -19,12 +40,12 @@
                 <span role="text"><!--titulo--></span>
                 <span role="text"><!--categoria e ano de lancamento--></span>
             </aside>
-            <header class="header">
+            <section class="main__header">
                 <h1 role="text">Sinopse:</h1>
                 <p role="text">
 
                 </p>
-            </header>
+            </section>
         </section>
         <main class="middle__content">
             <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/tKpbm-O9ly8"
@@ -32,11 +53,12 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>-->
             <div class="middle__content__links">
-                <a href="#"></a>
-                <a href="#"></a>
+                <a href="#">Download</a>
+                <a href="#">Assistir agora!</a>
             </div>
         </main>
     </div>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

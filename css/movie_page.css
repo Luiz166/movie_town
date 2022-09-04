@@ -9,6 +9,50 @@ body{
         width: 100%;
         margin: 0 auto;
     }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: var(--bg);
+        height: 15vh;
+    }
+    .header__logo{
+        width: 18.75rem;
+        height: 5rem;
+    }
+    .header__logo img{
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+    .header__nav a{
+        text-decoration: none;
+        color: #ccc;
+        font-family: var(--text);
+        font-size: 1.2rem;
+        font-weight: 200;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        margin-right: 1.5rem; 
+        transition: all 0.2s ease-in-out;
+    }
+    .header__nav a:hover{
+        background-color: #ccc;
+        color: var(--bg);
+    }
+    .header input{
+        outline: none;
+        border: none;
+        padding: .5rem .6rem;
+        border-radius: 2rem;
+        font-size: 1.1rem;
+        margin-left: 20rem;
+    }
     .group__flex{
         display: flex;
         gap: 1rem;
@@ -34,15 +78,15 @@ body{
         width: 100%;
         height: 100%;
     }
-    .header{
+    .main__header{
         color: white;
         width: 50rem;
     }
-    .header h1{
+    .main__header h1{
         font-family: var(--title);
         font-size: 2.5rem;
     }
-    .header p{
+    .main__header p{
         font-family: var(--text);
         font-size: 1.2rem;
     }
@@ -65,5 +109,26 @@ body{
         padding: 0.5rem;
         border-radius: 2rem;
         font-weight: 700;
+    }
+    .footer{
+        margin-top: 2rem;
+        width: 100%;
+        height: 25vh;
+        background-color: #030303;
+        display: flex;
+        flex-direction: column;
+        color: #ccc;
+        font-family: var(--text);
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__contact a{
+        text-decoration: none;
+        color: var(--yellow);
     }
 }

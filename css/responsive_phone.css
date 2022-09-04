@@ -80,6 +80,7 @@
         font-family: var(--text);
         font-size: 1.1rem;
         font-weight: 300;
+        text-align: center;
     }
     .main__list__movies__content__movie__cape{
         width: 10rem;

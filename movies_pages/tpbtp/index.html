@@ -12,6 +12,26 @@
 
 <body>
     <div class="container">
+        <header class="header">
+            <section class="header__logo">
+                <img src="../../resources/images/logo.png" onclick="window.location.href = '../../index.html'" />
+            </section>
+                <input type="search" id="search" list="movies__data" placeholder="Pesquisar">
+                <datalist id="movies__data">
+                    <option value="American Psycho"></option>
+                    <option value="Taxi Driver"></option>
+                    <option value="The Place Beyond the Pines"></option>
+                    <option value="Blade Runner 2049"></option>
+                    <option value="NightCrawler"></option>
+                    <option value="Drive"></option>
+                    <option value="Fight Club"></option>
+                </datalist>
+            <nav class="header__nav">
+                <a href="#">Home</a>
+                <a href="#">Popular</a>
+                <a href="#new">New</a>
+            </nav>
+        </header>
         <section class="group__flex">
             <aside class="movie__banner">
                 <div class="movie__banner__image">
@@ -24,7 +44,7 @@
                     <!--categoria e ano de lancamento-->Drama policial (2013)
                 </span>
             </aside>
-            <header class="header">
+            <section class="main__header">
                 <h1 role="text">Sinopse:</h1>
                 <p role="text">
                     Luke Glanton (Ryan Gosling) é um motociclista muito famoso onde mora, ele trabalha pilotando dentro
@@ -33,7 +53,7 @@
                     aproximar de seu filho, e mostrar-se um pai mais capacitado de se sustentar e sustentar o filho,
                     Luke decide participar de uma série de roubos a grandes bancos.
                 </p>
-            </header>
+            </section>
         </section>
         <main class="middle__content">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/zz5jTy_lukk"
@@ -45,7 +65,16 @@
                 <a href="#">Assistir agora!</a>
             </div>
         </main>
+        <footer class="footer">
+            <p role="text">Website produced by Luiz Otávio</p>
+            <span>&copy;Copyright all rights reserved 2022</span>
+            <div class="footer__contact">
+                <a href="https://github.com/luiz166/">Github</a>
+                <span>luizmorais.dev@gmail.com</span>
+            </div>
+        </footer>
     </div>
+    <script src="../../js/script.js"></script>
 </body>
 
 </html>
